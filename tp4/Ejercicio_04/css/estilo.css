@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.centrar_Horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar_Vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+#usuario,#contrasenia{
+margin-top: 7%;
+margin-bottom:2%;
+border: none;
+}
+#inicio{
+    color: red;
+}
+.separador{
+    border: 0.05em solid red;
+}
+#iniciar{
+    margin: 20%;
+    padding: 1em;
+    color: red;
+    background-color: transparent;
+    border: 0.05em solid red;
+}

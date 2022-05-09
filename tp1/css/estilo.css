@@ -1,0 +1,40 @@
+#titulo_punto1{
+    text-align: center;
+}
+.punto2{
+    text-align: center;
+}
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar a {
+    color: black;
+    text-decoration: none;
+}
+.centrar ul{
+    list-style-type: none;
+    width: 15%;
+}
+.centrar li{
+    margin:1em;
+    border: 0.1em solid blue;
+    text-align: center;
+}
+.borde{
+    border: gray solid 0.1em;
+    height: auto;
+    width: auto;
+    padding: 1em;
+}
+#titulo{
+    text-align: center;
+}
+.asi{
+text-align: right;
+margin-right: 5%;
+}
+.asi a{
+    text-decoration: none;
+}

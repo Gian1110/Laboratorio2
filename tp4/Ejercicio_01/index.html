@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berarducci Gianluca">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>punto 1</title>
+</head>
+<body>
+    <header class="centrar_Horizontal"><h1>Formulario</h1></header>
+    <main class="centrar_Horizontal">
+        <section >
+            <form action="php/funciondescuento.php" method="POST" class="centrar_Vertical">
+                <label for="monto" class="espacio">monto</label>
+                <input type="number" name="monto" id="monto" class="espacio" min="1" required>
+                <label for="descuento" class="espacio">descuento</label>
+                <input type="number" name="descuento" id="descuento" max="50" min="1" required class="espacio">
+                <input type="submit" value="Enviar" class="espacio">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

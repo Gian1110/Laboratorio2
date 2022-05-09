@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berarducci Gianluca">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>punto 2</title>
+</head>
+<body>
+    <header class="centrar_Horizontal"><h1>Agregar pelicula</h1></header>
+    <main class="centrar_Horizontal">
+        <section >
+            <form action="php/funcion.php" method="POST" enctype="multipart/form-data" class="centrar_Vertical">
+                <section class="espacio"><!--titulo-->
+                    <label for="Titulo">Titulo: </label>
+                    <input type="text" name="Titulo" id="Titulo" required>
+                </section>
+                <section class="espacio"><!--genero-->
+                    <label for="genero">Género: </label>
+                    <select name="genero" id="genero">
+                        <option value="ninguna" selected>--selecion--</option>
+                        <option value="accion">accion</option>
+                        <option value="comedia">comedia</option>
+                    </select>   
+                </section>
+                <section class="espacio"><!--fecha-->
+                    <label for="fecha">Fecha de estreno: </label>
+                        <input type="date" name="fecha">
+                </section>
+                <label for="destacado"><input type="checkbox" name="destacado" class="espacio"> Destacado </label>
+                <section class="espacio"><!--caratula-->
+                    <label for="caratula">Caratula: </label>
+                        <input type="file" name="caratula" id="caratula">
+                </section>  
+                <input type="submit" value="Guardar" id="guardar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

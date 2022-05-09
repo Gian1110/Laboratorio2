@@ -1,0 +1,3 @@
+john wick;accion;2020-10-21;Destacada;john wick.jpg
+john wick;accion;2020-10-21;Destacada;john wick.jpg
+pink;comedia;2020-10-20;No;pink.jpg

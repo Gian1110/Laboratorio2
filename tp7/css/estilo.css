@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.centrar_Horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrar_Vertical{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.espacio{
+	margin: 2%;
+}
+#tabla{
+    border: black 0.1em solid;
+    border-collapse: collapse;
+}
+table tr:first-child{
+    background-color: red;
+    color:white;
+}
+td , tr{
+    text-align: center;
+    border: black 0.1em solid;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.boton{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+    padding: 3%;
+}
+.acomodar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.centro{
+    text-align: center;
+    margin-bottom: 1%;
+}
+nav, main{
+    display: inline-block;
+}
+nav{
+    width: 20%;
+    margin: 4%;
+    margin-right: 10%;
+}
+#fotoModificar{
+    height: 20%;
+}
+#fotoBorrar{
+    height: 5%;
+}
+.botonAyC{
+    border: red solid;
+    width: 5em;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    margin: 2%;
+    padding: 2%;
+}
